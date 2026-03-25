@@ -1,8 +1,20 @@
-CIDR to IP Converter 🌐
+# CIDR to IP Converter 🌐
+
 A robust Node.js toolset designed to automate the expansion of CIDR blocks into individual IP addresses. Whether you need the raw speed of local mathematical calculation or the verified results of a web-based calculator, this repository provides both.
 
-📝 Introduction
-This project was built to simplify the process of network mapping. Handling large datasets in Excel can be tedious; this tool automates the extraction of every usable IP within those ranges and saves them into a clean, portable result.csv file.
+
+
+## 📝 Introduction
+This project was built to simplify the process of network mapping. Handling large datasets in Excel can be tedious; this tool automates the extraction of every usable IP within those ranges and saves them into a clean, portable `result.csv` file.
+
+## 🚀 Installation & Setup
+
+This project requires [Node.js](https://nodejs.org/). Follow these steps to get started:
+
+1. **Clone the Repository**
+   ```bash
+   git clone [https://github.com/devraj0506/CIDR_to_IP.git](https://github.com/devraj0506/CIDR_to_IP.git)
+   cd CIDR_to_IP
 
 🚀 Installation
 This project requires Node.js. Once Node is installed, run the following command in your terminal to install all necessary dependencies (Puppeteer for scraping, XLSX for Excel handling, and CSV tools for output):
