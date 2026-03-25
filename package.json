@@ -1,0 +1,18 @@
+{
+  "name": "cidr_2_ip",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "Devraj",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "csv-parse": "^6.1.0",
+    "csv-writer": "^1.6.0",
+    "puppeteer": "^24.38.0",
+    "xlsx": "^0.18.5"
+  }
+}
