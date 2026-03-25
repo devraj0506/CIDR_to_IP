@@ -6,7 +6,7 @@ const fs = require('fs');
 const path = require('path');
 
 const filePath = process.argv[2];
-const targetUrl = process.argv[3];
+const targetUrl = "https://www.vultr.com/resources/subnet-calculator/";
 
 if (!filePath || !targetUrl) {
   console.error('Usage: node index.js <csv-or-xlsx-file> <target-url>');
